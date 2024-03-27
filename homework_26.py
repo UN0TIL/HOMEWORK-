@@ -1,8 +1,5 @@
 def is_even(number):
-    if number & 1 == 0:
-        return True
-    else:
-        return False
+    return number & 1 == 0
 
 
 assert is_even(2494563894038**2) == True, "Test1"
